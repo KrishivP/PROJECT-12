@@ -11,9 +11,9 @@ function setup(){
   //create sprites here
   road = createSprite(200, 200);
   road.addImage(roadImage);
-  invisibleBoundary1 = createSprite(35, 200, 70, 400);
+  invisibleBoundary1 = createSprite(60, 200, 20, 400);
   invisibleBoundary1.visible = false;
-  invisibleBoundary2 = createSprite(365, 200, 70, 400);
+  invisibleBoundary2 = createSprite(340, 200, 20, 400);
   invisibleBoundary2.visible = false;
   runner = createSprite(305, 350, 25, 100);
   runner.addAnimation("running", runnerAnimation);
