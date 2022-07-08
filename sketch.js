@@ -36,14 +36,6 @@ function draw() {
   runner.collide(invisibleBoundary1);
   runner.collide(invisibleBoundary2);
 
-  //fixing bugs
-  if (mouseX < 111.675) {
-    runner.x = 111.675;
-  }
-  if (mouseX > 288.324) {
-    runner.x = 288.324;
-  }
-
   drawSprites();
 }
 
